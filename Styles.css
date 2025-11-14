@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;  
+}
+
+.link-menu {
+    font-weight: 600;
+    font-size: 14px; 
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-sing-up {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+   
+img {
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.button-learn-more {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: flex; /* Mantenha o cabeçalho visível para o botão */
+        justify-content: space-between; /* Alinha o botão e os links */
+    }
+
+    header a {
+        display: none; /* Oculta apenas os links dentro do cabeçalho */
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse; /* Coloca os elementos em coluna */
+        text-align: center;
+        align-items: center; /* Centraliza os elementos */
+    }
+
+    div {
+       
+        margin-bottom: 20px;
+        display: inline-block;
+        margin-left: 84px;
+        width: 430px; /* Espaço abaixo da descrição */
+    }
+
+    img {
+        width: 100%; /* Torna a imagem responsiva */
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Remove espaços indesejados em torno da imagem */
+        margin-top: 20px; /* Adiciona espaço acima da imagem */
+    }
+
+    .button-sing-up {
+        position: fixed; /* Posiciona o botão no canto superior direito */
+        top: 17px; /* Distância do topo */
+        right: 17px; /* Distância da direita */
+        z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    }
+
+    h1 {
+        margin-top: 124px;
+        margin-right: 55px;
+        margin-left: 57px; 
+    }
+
+    p {
+        font-size: 30px; /* Reduzir o tamanho da fonte do parágrafo */
+        margin: 10px 0; /* Margem acima e abaixo do parágrafo */
+    }
+
+    .button-learn-more {
+        margin-top: 10px; /* Adiciona margem entre o parágrafo e o botão "Learn more" */
+    }
+}
+
+
+
+
+
+
